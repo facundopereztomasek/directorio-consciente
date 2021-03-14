@@ -14,6 +14,7 @@ jobs:
 
     steps:
       - uses: actions/checkout@v2
+      - uses: mikeal/npx@master
       - uses: borales/actions-yarn@v2.0.0
         with:
           cmd: deploy # will run `yarn install` command
