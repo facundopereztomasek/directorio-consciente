@@ -7,8 +7,9 @@
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
     "lint": "vue-cli-service lint",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "predeploy": "yarn build",
+    "deploy": "gh-pages -d dist && yarn open",
+    "open": "open $(node -e \"console.log(require('./package.json').homepage)\")"
   },
   "dependencies": {
     "core-js": "^3.6.5",
