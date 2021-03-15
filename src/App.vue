@@ -27,6 +27,15 @@
           >+54 9 11 5095 2174</a
         >
       </p>
+      <p class="label">Whatsapp</p>
+      <p class="data">
+        <a
+          ref="noopener noreferrer"
+          target="_blank"
+          href="https://wa.me/+5491150952174"
+          >+54 9 11 5095 2174</a
+        >
+      </p>
       <p class="label">Instagram</p>
       <p class="data">
         <a
