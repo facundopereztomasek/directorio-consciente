@@ -17,3 +17,5 @@ jobs:
       - uses: actions/setup-node@v1
       - run: npm install
       - run: npm run deploy
+        with:
+          repo-token: ${{ secrets.GITHUB_TOKEN }}
