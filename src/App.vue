@@ -24,7 +24,7 @@
           ref="noopener noreferrer"
           target="_blank"
           href="tel:+54 9 11 5095 2174"
-          >123-456-7890</a
+          >+54 9 11 5095 2174</a
         >
       </p>
       <p class="label">Instagram</p>
